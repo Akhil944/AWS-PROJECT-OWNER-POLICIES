@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "codecommit:CreateBranch",
+                "codecommit:DeletePullRequestApprovalRule",
+                "codecommit:UpdateRepositoryDescription",
+                "codecommit:UpdateRepositoryName",
+                "codecommit:CreateRepository",
+                "codecommit:CreatePullRequest",
+                "codecommit:GitPush",
+                "codecommit:DeleteBranch"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
